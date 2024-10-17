@@ -21,6 +21,7 @@ public class Main {
         String word = s.nextLine();
         if(word.length() % 2 != 0) {
             System.out.println("Ошибка");
+            return;
         }
         int middle = word.length() / 2;
         char m1 = word.charAt(middle - 1);
@@ -38,15 +39,13 @@ public class Main {
             if(string.charAt(k) == ' ' || k == string.length() - 1) {
                 if(min == 0) {
                     min = r;
-                    set = ' ';
-                    r = 0;
                 }
                 else if(r < min && r != 0){
                     min = r;
-                    r = 0;
-                    set = ' ';
                     start = start0;
                 }
+                r = 0;
+                set = ' ';
                 start0 = k+1;
             }
             if(string.charAt(k) != set) {
@@ -84,10 +83,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String variant;
+        ZAD_A a = new ZAD_A();
         while(true){
             System.out.println("Введите нужный подпункт задания(а,b,c,d); 0 - выход");
             variant = s.nextLine();
-            if (variant.charAt(0) == 'a') zad_a();
+            if (variant.charAt(0) == 'a') a.ZAD_A();
             if (variant.charAt(0) == 'b') zad_b();
             if (variant.charAt(0) == 'c') zad_c();
             if (variant.charAt(0) == 'd') zad_d();
