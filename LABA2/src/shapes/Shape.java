@@ -115,4 +115,5 @@ class Circle extends Shape{
         System.out.println("Периметр круга: " + getPerimeter());
         System.out.println("Цвет круга: " + getter());
     }
+
 }
