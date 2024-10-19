@@ -211,6 +211,16 @@ class Triangle extends Shape {
     public double getArea() {
         return aTr;
     }
+
+    @Override
+    public void move(double moveX, double moveY) {
+        double dx = moveX - P1.getterX();
+        double dy = moveY - P1.getterY();
+        P1 = new Point(moveX, moveY);
+        P2 = new Point(P2.getterX() + dx, P2.getterY() + dy);
+        P3 = new Point(P3.getterX() + dx, P3.getterY() + dy);
+    }
+
     public void draw(){
         System.out.println("Фигура Треугольник");
         System.out.println("Точки диагонали треугольника:");
