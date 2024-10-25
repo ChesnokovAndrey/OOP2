@@ -5,10 +5,10 @@ import colors.Color;
 public abstract class Shape {
     private Color color = Color.TRANSPARENT;
     private double perimeter, area;
-    public void setter(Color newColor){
+    public void setColor(Color newColor){
         this.color = newColor;
     }
-    public Color getter(){
+    public Color getColor(){
         return color;
     }
     public double getPerimeter(){
