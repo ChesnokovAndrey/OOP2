@@ -12,7 +12,7 @@ public class ShapeServiceImpl implements ShapesService {
     @Override
     public double getSquares(List<Shape> shapeList) {
         int i = 0; double sum = 0;
-        while(shapeList.get(i) != null){
+        while(i <= shapeList.indexOf(shapeList.getLast())){
             sum += shapeList.get(i).getArea();
             i++;
         }
@@ -21,9 +21,9 @@ public class ShapeServiceImpl implements ShapesService {
 
     @Override
     public double getMaxPerimeters(List<Shape> shapeList) {
-        double maxShape = shapeList.get(0).getPerimeter();
+        double maxShape = shapeList.getFirst().getPerimeter();
         int i = 1;
-        while(shapeList.get(i) != null){
+        while(i <= shapeList.indexOf(shapeList.getLast())){
             if(shapeList.get(i).getPerimeter() > maxShape)  maxShape = shapeList.get(i).getPerimeter();
             i++;
         }
@@ -34,7 +34,7 @@ public class ShapeServiceImpl implements ShapesService {
     public Set<Color> getColors(List<Shape> shapeList) {
         Set<Color> colors = new HashSet<Color>();
         int i = 0;
-        while(shapeList.get(i) != null){
+        while(i <= shapeList.indexOf(shapeList.getLast())){
             colors.add(shapeList.get(i).getColor());
             i++;
         }

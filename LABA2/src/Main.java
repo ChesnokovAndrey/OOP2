@@ -4,6 +4,8 @@ import shapes.*;
 
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.LinkedList;
 import java.util.List;
 public class Main{
     public static void main(String[] args) {
@@ -23,7 +25,13 @@ public class Main{
         Triangle blueTri = new Triangle(new Point(-2,3),new Point(4,3),new Point(2,5));
         blueTri.setColor(Color.BLUE);
 
-        List<Shape> shapes = Arrays.asList(redTri,blueTri,whiteCircle,yellowCircle,rect,point);
+        List<Shape> shapes = new LinkedList<Shape>();
+        shapes.add(redTri);
+        shapes.add(whiteCircle);
+        shapes.add(yellowCircle);
+        shapes.add(rect);
+        shapes.add(point);
+        shapes.add(blueTri);
         ShapeServiceImpl impl = new ShapeServiceImpl();
         System.out.println(impl.getSquares(shapes));
         System.out.println(impl.getMaxPerimeters(shapes));
