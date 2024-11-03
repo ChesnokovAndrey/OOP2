@@ -1,7 +1,6 @@
 package shapes;
 
 public class Circle extends Shape{
-    private Shape circle;
     private Point point;
     private double radius;
     public void setC(Point p){

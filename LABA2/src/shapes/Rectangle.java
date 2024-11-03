@@ -27,7 +27,7 @@ public class Rectangle extends Shape{
         return true;
     }
     private void Exception(){
-        System.out.println("Ошибка(точки х или у лежат на одной прямой)");
+        System.out.println("Ошибка");
     }
     public Rectangle(Point p1, Point p2){
         A = p1;

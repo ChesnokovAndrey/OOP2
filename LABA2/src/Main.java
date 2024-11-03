@@ -2,9 +2,6 @@ import colors.Color;
 import service.impl.ShapeServiceImpl;
 import shapes.*;
 
-
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 public class Main{
@@ -36,5 +33,7 @@ public class Main{
         System.out.println(impl.getSquares(shapes));
         System.out.println(impl.getMaxPerimeters(shapes));
         System.out.println(impl.getColors(shapes));
+        Rectangle rect1 = new Rectangle(new Point(0,1), new Point(1,0));
+        rect1.draw();
     }
 }

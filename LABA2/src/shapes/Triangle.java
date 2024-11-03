@@ -4,27 +4,27 @@ import static java.lang.Math.sqrt;
 
 public class Triangle extends Shape {
     private Point P1, P2, P3;
-    public Point getter1() {
+    public Point getP1() {
         return P1;
     }
 
-    public Point getter2() {
+    public Point getP2() {
         return P2;
     }
 
-    public Point getter3() {
+    public Point getP3() {
         return P3;
     }
 
-    public void setter1(Point newP) {
+    public void setP1(Point newP) {
         P1 = newP;
     }
 
-    public void setter2(Point newP) {
+    public void setP2(Point newP) {
         P2 = newP;
     }
 
-    public void setter3(Point newP) {
+    public void setP3(Point newP) {
         P3 = newP;
     }
 
