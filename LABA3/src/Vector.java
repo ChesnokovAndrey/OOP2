@@ -14,17 +14,17 @@ public class Vector {
     private double y2 = 0;
 
     /**
-    * Конструктор объекта класса Вектор
-    * @param newx1 - координата X для начала вектора
+     * Конструктор объекта класса Вектор
+     * @param newx1 - координата X для начала вектора
      * @param newy1 - координата Y для начала вектора
-    * @param newx2 - координата X конца вектора
+     * @param newx2 - координата X конца вектора
      * @param newy2 - координата Y конца вектора
      */
     public Vector(double newx1, double newy1, double newx2, double newy2){
-         x1 = newx1;
-         y1 = newy1;
-         x2 = newx2;
-         y2 = newy2;
+        x1 = newx1;
+        y1 = newy1;
+        x2 = newx2;
+        y2 = newy2;
     }
     public Vector(){}
     /**
@@ -58,7 +58,6 @@ public class Vector {
         x2 = newx2;
         y2 = newy2;
     }
-
     /**
      * Метод, производящий скалярное произведение
      * @param a первый вектор произведения
@@ -68,22 +67,20 @@ public class Vector {
     public static double scalar(Vector a, Vector b){
         return a.getX() * b.getX() + a.getY() * b.getY();
     }
-
     /**
      * Mетод для вычисления длины вектора
      */
     public double length(){
-        return sqrt(getX()*getX() + getY()*getY());
+        return sqrt(getX()*getX() - getY()*getY());
     }
     /**
      * Метод умножает вектор на число
      * @param l число, на которое умножается вектор
      */
     public void multiply(double l){
-         x2 = x2 * l - x1;
-         y2 = y2 * l - y1;
+        x2 = x2 * l - x1;
+        y2 = y2 * l - y1;
     }
-
     /**
      * Метод скадывает два вектора
      * @param a первое слагаемое
@@ -109,6 +106,8 @@ public class Vector {
         b.setFinish(8,3);
         System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
         System.out.println(scalar(a,b));
-
+        System.out.println("|a| = " + a.length());
+        b.multiply(3);
+        System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
     }
 }
