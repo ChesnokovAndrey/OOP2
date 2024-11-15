@@ -99,15 +99,15 @@ public class Vector {
     public static Vector sub(Vector a, Vector b){
         return new Vector(0, 0, a.getX() - b.getX(), a.getY() - b.getY());
     }
-    public static void main(String[] args){
-        Vector a = new Vector(1,2,4,4);
-        Vector b = new Vector();
-        b.setStart(3,2);
-        b.setFinish(8,3);
-        System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
-        System.out.println(scalar(a,b));
-        System.out.println("|a| = " + a.length());
-        b.multiply(3);
-        System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
-    }
+//    public static void main(String[] args){
+//        Vector a = new Vector(1,2,4,4);
+//        Vector b = new Vector();
+//        b.setStart(3,2);
+//        b.setFinish(8,3);
+//        System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
+//        System.out.println(scalar(a,b));
+//        System.out.println("|a| = " + a.length());
+//        b.multiply(3);
+//        System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
+//    }
 }

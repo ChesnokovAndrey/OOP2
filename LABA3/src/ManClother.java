@@ -1,3 +1,3 @@
-public interface ManClother {
+interface ManClother {
     void wearMan();
 }

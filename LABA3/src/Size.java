@@ -1,4 +1,4 @@
-public enum Size {
+enum Size {
     XXS(32),
     XS(34),
     S(36),
