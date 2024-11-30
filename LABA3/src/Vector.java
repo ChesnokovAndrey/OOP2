@@ -109,5 +109,5 @@ public class Vector {
 //        System.out.println("|a| = " + a.length());
 //        b.multiply(3);
 //        System.out.println("b = (" + b.getX() + ", " + b.getY() + ")");
-//    }
+//    }/
 }
