@@ -54,11 +54,15 @@ public class Reader {
     }
 
     public void takeBook(int quantity){
-        System.out.println(this.fio + " взял " + quantity + " книги");
+        if(quantity < 0) {
+            System.out.println("Количество не может быть отрицательным");
+            return;
+        }
+        System.out.println(this.fio + " взял(а) " + quantity + " книги");
     }
 
     public void takeBook(String... books){
-        System.out.print(this.fio + " взял книги:");
+        System.out.print(this.fio + " взял(а): ");
         System.out.print(books[0]);
         for(int i = 1; i < books.length; i++){
             System.out.print(", " + books[i]);
@@ -67,8 +71,8 @@ public class Reader {
     }
 
     public void takeBook(Book... books){
-        System.out.print(this.fio + " взял книги:");
-        System.out.print(books[0]);
+        System.out.print(this.fio + " взял(а): ");
+        books[0].viewBook();
         for(int i = 1; i < books.length; i++){
             System.out.print(", ");
             books[i].viewBook();
@@ -77,11 +81,15 @@ public class Reader {
     }
 
     public void returnBook(int quantity){
-        System.out.println(this.fio + " вернул " + quantity + " книги");
+        if(quantity < 0) {
+            System.out.println("Количество не может быть отрицательным");
+            return;
+        }
+        System.out.println(this.fio + " вернул(а) " + quantity + " книги");
     }
 
     public void returnBook(String... books){
-        System.out.print(this.fio + " вернул:");
+        System.out.print(this.fio + " вернул(а): ");
         System.out.print(books[0]);
         for(int i = 1; i < books.length; i++){
             System.out.print(", " + books[i]);
@@ -90,8 +98,8 @@ public class Reader {
     }
 
     public void returnBook(Book... books){
-        System.out.print(this.fio + " вернул:");
-        System.out.print(books[0]);
+        System.out.print(this.fio + " вернул(а): ");
+        books[0].viewBook();
         for(int i = 1; i < books.length; i++){
             System.out.print(", ");
             books[i].viewBook();
