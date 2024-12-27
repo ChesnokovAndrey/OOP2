@@ -1,8 +1,13 @@
-import Client.Client;
-
+import Client.*;
 public class Main {
     public static void main(String[] args) {
-        Client.getInstance().handUp(true);
-        System.out.println("Hello world!");
+        ClientHand ready = new Ready();
+        ClientHand wait = new Waiting();
+
+        Client.getInstance().setHand(wait);
+        Client.getInstance().handUp();
+
+        Client.getInstance().setHand(ready);
+        Client.getInstance().handUp();
     }
 }
