@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SupportArray:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SupportArray_jar</output-path>
+    <root id="archive" name="SupportArray.jar">
+      <element id="module-output" name="SupportArray" />
+    </root>
+  </artifact>
+</component>

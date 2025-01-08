@@ -1,6 +1,3 @@
-
-import supportArray.*;
-
 public class Main {
     public static void main(String[] args) {
         Integer[] numbers = {1, -12, 0, -4, 25, 42};

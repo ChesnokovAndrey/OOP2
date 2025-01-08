@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ea7daf4-7732-48cd-badf-a951db0bce97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LABA4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LABA4/src/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LABA4/src/Disc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LABA4/src/DiscCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patterns/src/Client/Getting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/.idea/artifacts/SupportArray_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/SupportArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SupportArray/src/SupportArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LABA3/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../LABA3/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LABA4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LABA4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LABA4/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LABA4/src/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patterns/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/supportArray/SupportArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SupportArray/src/SupportArray.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ChesnokovAndrey"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ChesnokovAndrey/OOP_2.git",
+    "accountId": "24ef5020-74df-40e0-a6ba-13e52811b929"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2rM5INeBapIfZte1MZNX4CoOoNk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HOME/OOP_2/SupportArray/out/artifacts/SupportArray_jar/SupportArray.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ea7daf4-7732-48cd-badf-a951db0bce97" name="Changes" comment="" />
+      <created>1736356024951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736356024951</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SupportArray">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SupportArray/out/artifacts/SupportArray_jar/SupportArray.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
